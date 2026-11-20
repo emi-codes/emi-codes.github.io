@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My fantastatic research stay at The University of Edinburgh, hosted by <a href="https://www.jingjieli.me/">Dr. Jingjie Li</a> has come to an end after 3 months. 
+My research stay at The University of Edinburgh, hosted by <a href="https://www.jingjieli.me/">Dr. Jingjie Li</a> has come to an end after 3 months. 
