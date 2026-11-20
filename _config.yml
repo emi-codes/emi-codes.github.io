@@ -255,6 +255,7 @@ exclude:
   - _pages/projects.md
   - _pages/repositories.md
   - _pages/profiles.md
+  - _pages/cv.md # open when ready
 keep_files:
   - CNAME
   - .nojekyll
