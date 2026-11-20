@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our Poster ''Neurotechnology and Privacy: Understanding User Perspectives on Brain-Computer Interface Data Collection and Use'' got accepted at  <a href="https://www.sigsac.org/ccs/CCS2026/">ACM CCS 2026</a>. Read more about it <a href="https://dl.acm.org/doi/10.1145/3830454.3846410">here</a>.
+Our Poster <a href="https://dl.acm.org/doi/10.1145/3830454.3846410">Neurotechnology and Privacy: Understanding User Perspectives on Brain-Computer Interface Data Collection and Use</a> has been accepted at <a href="https://www.sigsac.org/ccs/CCS2026/">ACM CCS 2026</a>.
