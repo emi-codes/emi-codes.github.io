@@ -6,3 +6,4 @@ description:
 year: 2026
 term: Winter
 course_id: uauth
+---

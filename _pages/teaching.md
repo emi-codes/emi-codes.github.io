@@ -2,14 +2,27 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: 
 nav: true
 nav_order: 6
 calendar: true
 ---
+{% assign courses_by_year = site.teachings
+  | group_by_exp: "course", "course.year"
+  | sort: "name"
+  | reverse
+%}
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+{% for year in courses_by_year %}
+## {{ year.name }}
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
-
-{% include courses.liquid %}
+<ul>
+  {% assign courses = year.items | sort: "title" %}
+  {% for course in courses %}
+    <li>
+      {{ course.title }}
+      {% if course.term %} — {{ course.term }}{% endif %}
+    </li>
+  {% endfor %}
+</ul>
+{% endfor %}
