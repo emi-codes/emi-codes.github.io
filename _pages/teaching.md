@@ -27,3 +27,5 @@ calendar: true
     {% endfor %}
   </ul>
 {% endfor %}
+
+{% include courses.liquid %}
