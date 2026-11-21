@@ -5,7 +5,8 @@ seo_title: "Teaching"
 description: "Courses and seminars I taught at Paderborn University and KIT."
 permalink: /teaching/
 ---
-
+<!-- {% include courses.liquid %} -->
+<!-- 
 **Teaching**
 =====
 
@@ -13,8 +14,8 @@ permalink: /teaching/
 <article class="pub">
 <h3 class="pub-title">Privacy and Technology</h3>
 <p class="pub-venue">Master course, Universität Paderborn</p>
-<p class="course-desc">This course offers ...</p>
-<div class="term-tags"><span>Summer 2025</span><span>Summer 2024</span></div>
+<!-- <p class="course-desc">This course offers ...</p> -->
+<!-- <div class="term-tags"><span>In: Summer 2025, </span><span>Summer 2024</span></div>
 </article>
 <article class="pub">
 <h3 class="pub-title">Seminar x</h3>
@@ -60,4 +61,4 @@ Additionally, I have supervised the following Master seminars:
 <ul class="dated-rows">
 <li><span class="dated-when">Winter 2024</span><span>Sem1</span></li>
 <li><span class="dated-when">Summer 2023</span><span>Sem2</span></li>
-</ul>
+</ul> --> -->
