@@ -7,11 +7,11 @@ nav: true
 nav_order: 6
 calendar: true
 ---
-{% assign courses_by_year = site.teachings
+<!-- {% assign courses_by_year = site.teachings
   | group_by_exp: "course", "course.year"
   | sort: "name"
   | reverse
-%}
+%} -->
 
 <!-- {% for year in courses_by_year %}
   <h2 class="year">{{ year.name }}</h2>
