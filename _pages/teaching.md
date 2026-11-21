@@ -13,7 +13,7 @@ calendar: true
   | reverse
 %}
 
-{% for year in courses_by_year %}
+<!-- {% for year in courses_by_year %}
   <h2 class="year">{{ year.name }}</h2>
   <hr>
 
@@ -26,6 +26,6 @@ calendar: true
       </li>
     {% endfor %}
   </ul>
-{% endfor %}
+{% endfor %} -->
 
 {% include courses.liquid %}
