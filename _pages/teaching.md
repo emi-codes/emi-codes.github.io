@@ -14,15 +14,16 @@ calendar: true
 %}
 
 {% for year in courses_by_year %}
-## {{ year.name }}
+  <h2 class="year">{{ year.name }}</h2>
+  <hr>
 
-<ul>
-  {% assign courses = year.items | sort: "title" %}
-  {% for course in courses %}
-    <li>
-      {{ course.title }}
-      {% if course.term %} — {{ course.term }}{% endif %}
-    </li>
-  {% endfor %}
-</ul>
+  <ul class="teaching-list">
+    {% assign courses = year.items | sort: "title" %}
+    {% for course in courses %}
+      <li>
+        <strong>{{ course.title }}</strong>
+        {% if course.term %}<span> — {{ course.term }}</span>{% endif %}
+      </li>
+    {% endfor %}
+  </ul>
 {% endfor %}
