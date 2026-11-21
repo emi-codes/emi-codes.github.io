@@ -1,10 +1,13 @@
 ---
 layout: page
-title: ""
-seo_title: "Teaching"
-description: "Courses and seminars I taught at Paderborn University and KIT."
 permalink: /teaching/
+title: teaching
+description: Course and seminars I taught.
+nav: true
+nav_order: 6
+calendar: true
 ---
+
 <!-- {% include courses.liquid %} -->
 <!-- 
 **Teaching**
