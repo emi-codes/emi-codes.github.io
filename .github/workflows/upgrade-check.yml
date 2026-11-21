@@ -50,10 +50,13 @@ jobs:
       - name: Run upgrade audit 🧪
         run: bundle exec al-folio upgrade audit
 
-      - name: Upload upgrade report 📄
+      # - name: Upload upgrade report 📄
+      #   if: always()
+      #   uses: actions/upload-artifact@v7
+      #   with:
+      #     name: al-folio-upgrade-report
+      #     path: al-folio-upgrade-report.md
+      #     if-no-files-found: ignore
+      - name: Show audit report
         if: always()
-        uses: actions/upload-artifact@v7
-        with:
-          name: al-folio-upgrade-report
-          path: al-folio-upgrade-report.md
-          if-no-files-found: ignore
+        run: cat al-folio-upgrade-report.md
