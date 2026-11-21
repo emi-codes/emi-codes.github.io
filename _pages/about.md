@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Hi, I'm a PhD student at <a href='https://www.uni-paderborn.de/en/'>Paderborn University</a>. I am supervised by Dr. Patricia Arias Cabarcos and currently affiliated with the System Security group, lead by Prof. Dr.-Ing. Juraj Somorovsky. 
+subtitle: Hi, thanks for stopping by! I'm Emiram, a PhD student at <a href='https://www.uni-paderborn.de/en/'>Paderborn University</a>. I am supervised by Dr. Patricia Arias Cabarcos and currently affiliated with the System Security group, lead by Prof. Dr.-Ing. Juraj Somorovsky. 
 
 
 
@@ -32,3 +32,5 @@ latest_posts:
 ---
 
 My research focuses on **usable security and privacy in emerging technologies**, particularly Virtual Reality (VR) and Brain-Computer Interfaces (BCIs). I investigate secure and user-friendly authentication methods, such as biometrics, password managers, and brainwave-based approaches, as well as privacy challenges arising from VR data and neural data collection. Transparency, informed consent, and regulatory support are essential for building trust and creating secure, privacy-conscious ecosystems.
+
+
