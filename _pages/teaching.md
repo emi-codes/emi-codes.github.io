@@ -2,12 +2,22 @@
 layout: page
 permalink: /teaching/
 title: teaching
+<<<<<<< HEAD
 description: Course and seminars I taught.
+=======
+description: 
+>>>>>>> parent of c8ae529 (t)
 nav: true
 nav_order: 6
 calendar: true
 ---
+<!-- {% assign courses_by_year = site.teachings
+  | group_by_exp: "course", "course.year"
+  | sort: "name"
+  | reverse
+%} -->
 
+<<<<<<< HEAD
 <!-- {% include courses.liquid %} -->
 <!-- 
 **Teaching**
@@ -65,3 +75,21 @@ Additionally, I have supervised the following Master seminars:
 <li><span class="dated-when">Winter 2024</span><span>Sem1</span></li>
 <li><span class="dated-when">Summer 2023</span><span>Sem2</span></li>
 </ul> --> -->
+=======
+<!-- {% for year in courses_by_year %}
+  <h2 class="year">{{ year.name }}</h2>
+  <hr>
+
+  <ul class="teaching-list">
+    {% assign courses = year.items | sort: "title" %}
+    {% for course in courses %}
+      <li>
+        <strong>{{ course.title }}</strong>
+        {% if course.term %}<span> — {{ course.term }}</span>{% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %} -->
+
+{% include courses.liquid %}
+>>>>>>> parent of c8ae529 (t)
