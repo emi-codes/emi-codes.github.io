@@ -9,16 +9,20 @@
         {% for course in year_courses %}
           <div class="course-item">
             <h3 class="course-title">
-              <a href="">{{ course.title }}</a>
+              {{ course.title }}
             </h3>
 
             <div class="course-meta">
               {% if course.term %}
-                <span class="course-term">{{ course.term }}</span>
+                <span class="course-term">Term: {{ course.term }}</span>
+              {% endif %}
+
+              {% if course.location %}
+                <span class="course-term">Location: {{ course.location }}</span>
               {% endif %}
 
               {% if course.instructor %}
-                <span class="course-instructor">{{ course.instructor }}</span>
+                <span class="course-instructor">Instructor: {{ course.instructor }}</span>
               {% endif %}
             </div>
 
