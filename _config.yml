@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Emiram
 last_name: Kablo
 contact_note: >
-description: > Hi, I'm Emiram Kablo. A researcher from Paderborn University, focusing on usable security and privacy in emerging technologies. 
+description: > "Hi, I'm Emiram Kablo. A researcher from Paderborn University, focusing on usable security and privacy in emerging technologies."
 footer_text:
 keywords: research, usable security, privacy, virtual reality, neurotechnology
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
