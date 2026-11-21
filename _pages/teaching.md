@@ -13,7 +13,7 @@ calendar: true
   | reverse
 %} -->
 
-<!-- {% include courses.liquid %} -->
+{% include courses.liquid %}
 <!-- 
 **Teaching**
 =====
@@ -69,4 +69,4 @@ Additionally, I have supervised the following Master seminars:
 <ul class="dated-rows">
 <li><span class="dated-when">Winter 2024</span><span>Sem1</span></li>
 <li><span class="dated-when">Summer 2023</span><span>Sem2</span></li>
-</ul> --> -->
+</ul> --> 
