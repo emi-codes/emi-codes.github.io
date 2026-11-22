@@ -1,7 +1,7 @@
-{% assign sections = "course,workshop,thesis" | split: "," %}
+{% assign section_layouts = "course,workshop,thesis" | split: "," %}
 
-{% for section in sections %}
-  {% case section %}
+{% for section_layout in section_layouts %}
+  {% case section_layout %}
     {% when "course" %}
       {% assign heading = "Courses and Seminars" %}
     {% when "workshop" %}
@@ -10,26 +10,17 @@
       {% assign heading = "Theses" %}
   {% endcase %}
 
-  {% assign section_entries = site.teachings | where: "type", section %}
+  {% assign entries = site.teachings | where: "layout", section_layout %}
 
-  {% if section_entries.size > 0 %}
+  {% if entries.size > 0 %}
     <h2>{{ heading }}</h2>
-
-    {% assign entries_by_year = section_entries | group_by: "year" | sort: "name" | reverse %}
+    {% assign entries_by_year = entries | group_by: "year" | sort: "name" | reverse %}
 
     {% for year_group in entries_by_year %}
       <h3 class="year">{{ year_group.name }}</h3>
-
       <ul>
-        {% assign year_entries = year_group.items | sort: "title" %}
-        {% for entry in year_entries %}
-          <li>
-            <strong>{{ entry.title }}</strong>
-            {% if entry.term %} — {{ entry.term }}{% endif %}
-            {% if entry.description %}
-              <div>{{ entry.description | markdownify }}</div>
-            {% endif %}
-          </li>
+        {% for entry in year_group.items %}
+          <li>{{ entry.title }}</li>
         {% endfor %}
       </ul>
     {% endfor %}
