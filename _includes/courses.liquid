@@ -1,30 +1,28 @@
 {% if site.teachings %}
   <div class="courses">
-    {% assign courses_by_year = site.teachings | sort: 'year' | reverse | group_by: 'year' %}
+    {% assign sorted_courses = site.teachings | sort: 'year' | reverse %}
 
-    {% for year_group in courses_by_year %}
-      <h2 class="year">{{ year_group.name }}</h2>
+    {% comment %} Group by term and year, e.g. Winter 2025 {% endcomment %}
+    {% assign courses_by_term_year = sorted_courses
+      | group_by_exp: "course", "course.term | append: ' ' | append: course.year"
+    %}
+
+    {% for group in courses_by_term_year %}
+      <h2 class="year">{{ group.name }}</h2>
+
       <div class="course-list">
-        {% assign year_courses = year_group.items | sort: 'term' %}
-        {% for course in year_courses %}
+        {% assign term_courses = group.items | sort: 'title' %}
+        {% for course in term_courses %}
           <div class="course-item">
-            <h3 class="course-title">
-              {{ course.title }}
-            </h3>
+            <h3 class="course-title">{{ course.title }}</h3>
 
             <div class="course-meta">
               {% if course.program %}
-                <span class="course-term">{{ course.program}}</span>
+                <span class="course-term">{{ course.program }}</span>
               {% endif %}
-              
-              {% if course.term %}
-                <span class="course-term">Term: {{ course.term }}</span>
-              {% endif %}
-
               {% if course.location %}
                 <span class="course-term">Location: {{ course.location }}</span>
               {% endif %}
-
               {% if course.instructor %}
                 <span class="course-instructor">Instructor: {{ course.instructor }}</span>
               {% endif %}
