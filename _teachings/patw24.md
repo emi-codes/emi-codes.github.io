@@ -1,5 +1,6 @@
 ---
 layout: course
+type: course
 title: "Privacy and Technology"
 description: "I TA'd the lecture 'Privacy and Technology', leading one exercise group of 35 students."
 location: Paderborn University

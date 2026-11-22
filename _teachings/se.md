@@ -1,5 +1,6 @@
 ---
 layout: course
+type: course
 title: "Software Engineering"
 description: "I TA'd the lecture 'Software Engineering', leading four exercise group of 80 students."
 location: Paderborn University

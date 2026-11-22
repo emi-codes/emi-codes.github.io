@@ -1,5 +1,6 @@
 ---
 layout: course
+type: course
 title: "Praktikum: Security, Usability, and Society"
 description: "I supervised a student project within the Praktikum (equ. Seminar) 'Security, Usability, and Society'. Topic:  *Gamifying Credential Audits in Virtual Reality*."
 location: Karlsruhe Institute of Technology

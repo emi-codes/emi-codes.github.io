@@ -1,5 +1,6 @@
 ---
 layout: course
+type: course
 title: "Seminar: Human Interaction on Privacy and Security (HIPS)"
 description: "I supervised the seminar with 4 students."
 location: Paderborn University

@@ -1,5 +1,6 @@
 ---
 layout: course
+type: course
 title: "Project Group: Usable Authentication Lab (UAuth)"
 description: "I supervise the student project group 'Usable Authentication Lab' of 8 students."
 location: Paderborn University

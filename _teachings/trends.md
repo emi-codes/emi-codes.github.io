@@ -1,5 +1,6 @@
 ---
 layout: course
+type: course
 title: "Seminar: Trends on Usable Security and Privacy"
 description: "I supervised the seminars with 5 students."
 location: Paderborn University
