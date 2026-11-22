@@ -1,37 +1,45 @@
-{% assign sections = "course,workshop,thesis" | split: "," %}
+{% if site.teachings %}
+  <div class="courses">
+    {% assign courses_by_year = site.teachings | sort: 'year' | reverse | group_by: 'year' %}
 
-{% for section in sections %}
-  {% case section %}
-    {% when "course" %}
-      {% assign heading = "Courses and Seminars" %}
-    {% when "workshop" %}
-      {% assign heading = "Workshops" %}
-    {% when "thesis" %}
-      {% assign heading = "Theses" %}
-  {% endcase %}
+    {% for year_group in courses_by_year %}
+      <h2 class="year">{{ year_group.name }}</h2>
+      <div class="course-list">
+        {% assign year_courses = year_group.items | sort: 'term' %}
+        {% for course in year_courses %}
+          <div class="course-item">
+            <h3 class="course-title">
+              {{ course.title }}
+            </h3>
 
-  {% assign section_entries = site.teachings | where: "type", section %}
+            <div class="course-meta">
+              {% if course.program %}
+                <span class="course-term">{{ course.program}}</span>
+              {% endif %}
+              
+              {% if course.term %}
+                <span class="course-term">Term: {{ course.term }}</span>
+              {% endif %}
 
-  {% if section_entries.size > 0 %}
-    <h2>{{ heading }}</h2>
+              {% if course.location %}
+                <span class="course-term">Location: {{ course.location }}</span>
+              {% endif %}
 
-    {% assign entries_by_year = section_entries | group_by: "year" | sort: "name" | reverse %}
+              {% if course.instructor %}
+                <span class="course-instructor">Instructor: {{ course.instructor }}</span>
+              {% endif %}
+            </div>
 
-    {% for year_group in entries_by_year %}
-      <h3 class="year">{{ year_group.name }}</h3>
-
-      <ul>
-        {% assign year_entries = year_group.items | sort: "title" %}
-        {% for entry in year_entries %}
-          <li>
-            <strong>{{ entry.title }}</strong>
-            {% if entry.term %} — {{ entry.term }}{% endif %}
-            {% if entry.description %}
-              <div>{{ entry.description | markdownify }}</div>
+            {% if course.description %}
+              <div class="course-description">
+                {{ course.description | markdownify }}
+              </div>
             {% endif %}
-          </li>
+          </div>
         {% endfor %}
-      </ul>
+      </div>
     {% endfor %}
-  {% endif %}
-{% endfor %}
+  </div>
+{% else %}
+  <p>No courses available yet.</p>
+{% endif %}
