@@ -18,13 +18,13 @@
 
             <div class="course-meta">
               {% if course.program %}
-                <span class="course-term">{{ course.program }}</span>
+                <i><span class="course-term">Program: {{ course.program }}, </span></i>
               {% endif %}
               {% if course.location %}
-                <span class="course-term">Location: {{ course.location }}</span>
+                <i><span class="course-term">at {{ course.location }}<br></span></i>
               {% endif %}
               {% if course.instructor %}
-                <span class="course-instructor">Instructor: {{ course.instructor }}</span>
+                <i><span class="course-instructor">Instructor: {{ course.instructor }}<br></span></i>   
               {% endif %}
             </div>
 

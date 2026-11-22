@@ -6,7 +6,7 @@ description: "I supervised the student project group 'Adaptive Authentication in
 location: Paderborn University
 instructor: "Prof. Dr.-Ing. Somorovsky"
 year: 2025
-term: Winter/Summer
+term: Winter
 program: Master
 course_id: adavr
 ---
