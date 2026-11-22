@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I have been invited to review a journal submission for <a href="https://dl.acm.org/journal/tops">ACM TOPS</a>.
+I have been invited to serve as a reviewer for the journal <a href="https://dl.acm.org/journal/tops">ACM TOPS</a>.
