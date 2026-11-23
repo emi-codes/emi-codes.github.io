@@ -80,17 +80,16 @@ cv:
           - "Mentor and project coordinator at Look UPB / “Frauen gestalten die Informationsgesellschaft”"
           - "Web developer for the E-Learning course “Psychology and Movement Science”"
 
-    # Volunteer:
-      - company: Assyrian Studies Association
-        position: Volunteer, Member
-        location: ""
+
+    Volunteer:
+      - organization: Assyrian Studies Association
+        position: Volunteer
         start_date: "2026"
         summary: >-
           Promotes research and community projects associated with Assyro-Mesopotamian heritage.
 
-      - company: Qamishli Hilfswerk-Verein
-        position: Volunteer, Member
-        location: ""
+      - organization: Qamishli Hilfswerk-Verein
+        position: Volunteer
         start_date: "2016"
         summary: >-
           Supports mentorship programs for Syrian refugees in Germany and post-conflict community rebuilding initiatives in Syria.
@@ -110,7 +109,7 @@ cv:
 
       - name: Aramaic/Assyrian
         summary: Native speaker
-      
+
       - name: English
         summary: Business fluent
 
