@@ -209,6 +209,8 @@ collections:
     output: true
   service:
     output: true
+  talks:
+    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
