@@ -37,6 +37,13 @@ cv:
           - "Thesis: Exploring the usability of mobile websites using the example of PANDA’s mobile internet presence"
 
     Experience:
+      - company: Paderborn University
+        position: Research Associate
+        location: Paderborn, Germany
+        start_date: "2022-07"
+        highlights:
+          - "Chair of IT Security, led by Prof. Dr. Patricia Arias Cabarcos"
+
       - company: University of Edinburgh
         position: Visiting Researcher
         location: Edinburgh, UK
@@ -44,14 +51,7 @@ cv:
         end_date: "2026-07"
         highlights:
           - "Three-month research visit"
-          - "Host supervisor: Dr. Jingjie Li"
-
-      - company: Paderborn University
-        position: Research Associate
-        location: Paderborn, Germany
-        start_date: "2022-07"
-        highlights:
-          - "Chair of IT Security, led by Prof. Dr. Patricia Arias Cabarcos"
+          - "Host supervisor: Dr. Jingjie Li"    
 
       - company: Karlsruhe Institute of Technology
         position: Visiting Researcher
@@ -83,13 +83,13 @@ cv:
 
     Volunteer:
       - organization: Assyrian Studies Association
-        position: Member
+        position: Volunteer
         start_date: "2026"
         summary: >-
           Promotes research and community projects associated with Assyro-Mesopotamian heritage.
 
       - organization: Qamishli Hilfswerk-Verein
-        position: Member
+        position: Volunteer
         start_date: "2016"
         summary: >-
           Supports mentorship programs for Syrian refugees in Germany and post-conflict community rebuilding initiatives in Syria.
