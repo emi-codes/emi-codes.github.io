@@ -7,7 +7,7 @@ location: Paderborn University
 instructor: "Prof. Dr.-Ing. Somorovsky and Prof. Dr. Patricia Arias Cabarcos"
 year: 2025
 term: Summer
-term_order: 1
+term_order: 2
 program: Bachelor
 course_id: hips
 ---

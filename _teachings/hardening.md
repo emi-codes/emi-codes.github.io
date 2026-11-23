@@ -7,7 +7,7 @@ location: Paderborn University
 instructor: "Prof. Dr. Patricia Arias Cabarcos"
 year: 2025
 term: Summer
-term_order: 1
+term_order: 2
 program: Master
 course_id: hardening
 ---

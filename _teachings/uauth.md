@@ -7,7 +7,7 @@ location: Paderborn University
 instructor: "Prof. Dr.-Ing. Somorovsky"
 year: 2026
 term: Winter
-term_order: 2
+term_order: 1
 program: Master
 course_id: uauth
 ---

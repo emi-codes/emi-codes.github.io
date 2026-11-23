@@ -7,7 +7,7 @@ location: Paderborn University
 instructor: "Prof. Dr. Patricia Arias Cabarcos"
 year: 2024
 term: Winter
-term_order: 2
+term_order: 1
 program: Bachelor/Master
 course_id: trends
 ---

@@ -13,20 +13,20 @@
       {% for term_group in courses_by_term %}
         <h2 class="year">{{ term_group.name }} {{ year_group.name }}</h2>
 
-        <div class="course-list">
+        <div class="">
           {% assign term_courses = term_group.items | sort: 'title' %}
 
           {% for course in term_courses %}
-            <div class="course-item">
+            <div class="">
               <h3 class="course-title">{{ course.title }}</h3>
 
               <div class="course-meta">
                 {% if course.program %}
-                  <i><span class="course-term">Program: {{ course.program }}</span></i>
+                  <i><span class="course-term">Program: {{ course.program }}<br></span></i>
                 {% endif %}
 
                 {% if course.location %}
-                  <i><span class="course-term">at {{ course.location }}</span></i>
+                  <i><span class="course-term">{{ course.location }}<br></span></i>
                 {% endif %}
 
                 {% if course.instructor %}

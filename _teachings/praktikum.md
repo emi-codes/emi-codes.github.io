@@ -7,7 +7,7 @@ location: Karlsruhe Institute of Technology
 instructor: "Prof. Dr. Melanie Volkamer"
 year: 2025
 term: Summer
-term_order: 1
+term_order: 2
 program: Bachelor/Master
 course_id: praktikum
 ---

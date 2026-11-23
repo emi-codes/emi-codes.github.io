@@ -7,7 +7,7 @@ location: Paderborn University
 instructor: "Prof. Dr.-Ing Thomas Thüm"
 year: 2024
 term: Summer
-term_order: 1
+term_order: 2
 program: Bachelor
 course_id: se
 ---
