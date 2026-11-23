@@ -11,7 +11,7 @@ cv:
     countryCode: Germany
 
   sections:
-        Education:
+    Education:
       - institution: Paderborn University
         area: Computer Science
         studyType: Ph.D. Student
@@ -94,7 +94,7 @@ cv:
         summary: >-
           Supports mentorship programs for Syrian refugees in Germany and post-conflict community rebuilding initiatives in Syria.
 
-        Awards:
+    Awards:
       - title: Emilio Aced Award
         date: "2025-01"
         awarder: Spanish National Data Protection Agency
@@ -131,4 +131,4 @@ cv:
         issuer: Paderborn University
         summary: >-
           Mentoring program for undergraduate women interested in pursuing a Ph.D.
-        start_date: "2022-10"
+       
