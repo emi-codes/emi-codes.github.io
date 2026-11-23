@@ -9,7 +9,7 @@ calendar: true
 ---
 <h2>Courses and Seminars</h2>
 {% include courses.liquid %}
-
+<div style="margin-top: 2rem;"></div>
 <h2>Thesis Supervisions</h2>
 {% include thesis.liquid %}
 
