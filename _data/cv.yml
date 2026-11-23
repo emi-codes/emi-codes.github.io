@@ -6,6 +6,7 @@ cv:
   address:
     street: Fürstenallee 11
     city: Paderborn
+    region: NRW
     postalCode: 33102
     countryCode: Germany
 
