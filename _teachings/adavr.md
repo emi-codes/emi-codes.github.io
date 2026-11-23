@@ -4,7 +4,7 @@ type: course
 title: "Project Group: Adaptive Authentication in Virtual Reality (ADA-VR)"
 description: "I supervised the student project group with 8 students for one full year."
 location: Paderborn University
-instructor: "Prof. Dr.-Ing. Somorovsky"
+instructor: "Prof. Dr.-Ing. Somorovsky and Prof. Dr. Patricia Arias Cabarcos"
 year: 2025
 term: Winter
 term_order: 1

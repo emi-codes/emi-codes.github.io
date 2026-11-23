@@ -4,10 +4,10 @@
   <div class="thesis-list">
     {% for thesis in theses %}
       <div class="thesis-item">
-        <h4>
+        <p>
           {{ thesis.title }}
           {% if thesis.year %} ({{ thesis.year }}){% endif %}
-        </h4>
+        </p>
 
         {% if thesis.description %}
           <div>{{ thesis.description | markdownify }}</div>

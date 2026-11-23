@@ -22,11 +22,11 @@
 
               <div class="course-meta">
                 {% if course.program %}
-                  <i><span class="course-term">Program: {{ course.program }}<br></span></i>
+                  <i><span class="course-term">Program: {{ course.program }},</span></i>
                 {% endif %}
 
                 {% if course.location %}
-                  <i><span class="course-term">{{ course.location }}<br></span></i>
+                  <i><span class="course-term">at {{course.location }},</span></i>
                 {% endif %}
 
                 {% if course.instructor %}
