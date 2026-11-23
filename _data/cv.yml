@@ -82,7 +82,7 @@ cv:
 
     # Volunteer:
       - company: Assyrian Studies Association
-        position: Volunteer: Member
+        position: Volunteer, Member
         location: ""
         start_date: "2026"
         end_date: ""
@@ -90,7 +90,7 @@ cv:
           Promotes research and community projects associated with Assyro-Mesopotamian heritage.
 
       - company: Qamishli Hilfswerk-Verein
-        position: Volunteer: Member
+        position: Volunteer, Member
         location: ""
         start_date: "2016"
         end_date: ""
