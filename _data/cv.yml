@@ -1,15 +1,11 @@
 cv:
   name: Emiram Kablo
-  label: 
   email: ekablo@mail.upb.de
   location: F2.305, Fürstenallee 11, 33102 Paderborn, Germany
-  image: ""
-  summary: 
 
   address:
     street: Fürstenallee 11
     city: Paderborn
-    region: 
     postalCode: 33102
     countryCode: Germany
 
