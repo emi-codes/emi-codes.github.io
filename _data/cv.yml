@@ -11,98 +11,124 @@ cv:
     countryCode: Germany
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+        Education:
+      - institution: Paderborn University
+        area: Computer Science
+        studyType: Ph.D. Student
+        start_date: "2022-07"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Advisor: Prof. Dr. Patricia Arias Cabarcos (IT Security)"
+          - "Research topic: Usable Security and Privacy in Emerging Technologies"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Paderborn University
+        area: Computer Science
+        studyType: Master of Science
+        start_date: "2018-04"
+        end_date: "2021-06"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Thesis: An analysis of implications of mobile Augmented Reality applications on software-ergonomic requirements"
+
+      - institution: Paderborn University
+        area: Computer Science
+        studyType: Bachelor of Science
+        start_date: "2013-10"
+        end_date: "2018-03"
+        highlights:
+          - "Thesis: Exploring the usability of mobile websites using the example of PANDA’s mobile internet presence"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: University of Edinburgh
+        position: Visiting Researcher
+        location: Edinburgh, UK
+        start_date: "2026-05"
+        end_date: "2026-07"
         highlights:
-          - Relativity
-          - Description 2.
+          - "Three-month research visit"
+          - "Host supervisor: Dr. Jingjie Li"
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Paderborn University
+        position: Research Associate
+        location: Paderborn, Germany
+        start_date: "2022-07"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Chair of IT Security, led by Prof. Dr. Patricia Arias Cabarcos"
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - company: Karlsruhe Institute of Technology
+        position: Visiting Researcher
+        location: Karlsruhe, Germany
+        start_date: "2025-10"
+        end_date: "2026-01"
+        highlights:
+          - "Six-week research visit"
+          - "Chair of SECUSO, led by Prof. Dr. Melanie Volkamer"
+
+      - company: Connext Communication GmbH
+        position: Software Developer
+        location: Paderborn, Germany
+        start_date: "2021-08"
+        end_date: "2022-06"
+        highlights:
+          - "Developed software for health care institutions"
+
+      - company: Paderborn University
+        position: Student Research Assistant
+        location: Paderborn, Germany
+        start_date: "2017-05"
+        end_date: "2021-04"
+        highlights:
+          - "Developer and designer at AR-Lab"
+          - "Mentor and project coordinator at Look UPB / “Frauen gestalten die Informationsgesellschaft”"
+          - "Web developer for the E-Learning course “Psychology and Movement Science”"
 
 
     Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+      - organization: Assyrian Studies Association
+        position: Member
+        start_date: "2026"
+        summary: >-
+          Promotes research and community projects associated with Assyro-Mesopotamian heritage.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - organization: Qamishli Hilfswerk-Verein
+        position: Member
+        start_date: "2016"
+        summary: >-
+          Supports mentorship programs for Syrian refugees in Germany and post-conflict community rebuilding initiatives in Syria.
 
+        Awards:
+      - title: Emilio Aced Award
+        date: "2025-01"
+        awarder: Spanish National Data Protection Agency
+        summary: >-
+          2024 award for research on personal data protection. Awarded for the
+          contribution “Privacy in the age of neurotechnology: Investigating
+          public attitudes towards brain data collection and use.”
  
     Languages:
       - name: German
-        summary: "Native speaker"
+        summary: Native speaker
 
       - name: English
-        summary: "Fluent"
+        summary: Business fluent
+
+      - name: Aramaic/Assyrian
+        summary: Native speaker
+
+      - name: Spanish
+        summary: Basic knowledge
 
 
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - name: Certificate of Attendance — CYRENZH Summer School
+        date: "2025-07"
+        issuer: University of Zurich
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - name: Certificate of Attendance — Women in Security and Cryptography Workshop
+        date: "2023-06"
+        issuer: Ruhr University Bochum
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: Mentor Certificate — perspEktIveM
+        date: "2023-03"
+        issuer: Paderborn University
+        summary: >-
+          Mentoring program for undergraduate women interested in pursuing a Ph.D.
+        start_date: "2022-10"
