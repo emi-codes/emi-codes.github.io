@@ -33,6 +33,4 @@ latest_posts:
 
 My research focuses on **usable security and privacy in emerging technologies**, particularly Virtual Reality (VR) and Brain-Computer Interfaces (BCIs). I investigate secure and user-friendly authentication methods, such as biometrics, password managers, and brainwave-based approaches, as well as privacy challenges arising from VR data and neural data collection. Transparency, informed consent, and regulatory support are essential for building trust and creating secure, privacy-conscious ecosystems.
 
-Feel free to reach out! 
-
-Cheers.
+Feel free to reach out! ✌️

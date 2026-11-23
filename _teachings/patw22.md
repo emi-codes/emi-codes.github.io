@@ -2,11 +2,12 @@
 layout: course
 type: course
 title: "Privacy and Technology"
-description: "I TA'd the lecture 'Privacy and Technology', leading one exercise group of 35 students."
+description: "I TA'd the lecture, leading one exercise group of 35 students."
 location: Paderborn University
 instructor: "Prof. Dr. Patricia Arias Cabarcos"
 year: 2022
 term: Winter
+term_order: 2
 program: Master
 course_id: patw22
 ---

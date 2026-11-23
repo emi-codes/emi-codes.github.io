@@ -1,41 +1,48 @@
 {% if site.teachings %}
   <div class="courses">
-    {% assign sorted_courses = site.teachings | sort: 'year' | reverse %}
-
-    {% comment %} Group by term and year, e.g. Winter 2025 {% endcomment %}
-    {% assign courses_by_term_year = sorted_courses
-      | group_by_exp: "course", "course.term | append: ' ' | append: course.year"
+    {% assign courses_by_year = site.teachings
+      | group_by: 'year'
+      | sort: 'name'
+      | reverse
     %}
 
-    {% for group in courses_by_term_year %}
-      <h2 class="year">{{ group.name }}</h2>
+    {% for year_group in courses_by_year %}
+      {% assign term_ordered_courses = year_group.items | sort: 'term_order' %}
+      {% assign courses_by_term = term_ordered_courses | group_by: 'term' %}
 
-      <div class="course-list">
-        {% assign term_courses = group.items | sort: 'title' %}
-        {% for course in term_courses %}
-          <div class="course-item">
-            <h3 class="course-title">{{ course.title }}</h3>
+      {% for term_group in courses_by_term %}
+        <h2 class="year">{{ term_group.name }} {{ year_group.name }}</h2>
 
-            <div class="course-meta">
-              {% if course.program %}
-                <i><span class="course-term">Program: {{ course.program }}, </span></i>
-              {% endif %}
-              {% if course.location %}
-                <i><span class="course-term">at {{ course.location }}<br></span></i>
-              {% endif %}
-              {% if course.instructor %}
-                <i><span class="course-instructor">Instructor: {{ course.instructor }}<br></span></i>   
+        <div class="course-list">
+          {% assign term_courses = term_group.items | sort: 'title' %}
+
+          {% for course in term_courses %}
+            <div class="course-item">
+              <h3 class="course-title">{{ course.title }}</h3>
+
+              <div class="course-meta">
+                {% if course.program %}
+                  <i><span class="course-term">Program: {{ course.program }}</span></i>
+                {% endif %}
+
+                {% if course.location %}
+                  <i><span class="course-term">at {{ course.location }}</span></i>
+                {% endif %}
+
+                {% if course.instructor %}
+                  <i><span class="course-instructor">Instructor: {{ course.instructor }}</span></i>
+                {% endif %}
+              </div>
+
+              {% if course.description %}
+                <div class="course-description">
+                  {{ course.description | markdownify }}
+                </div>
               {% endif %}
             </div>
-
-            {% if course.description %}
-              <div class="course-description">
-                {{ course.description | markdownify }}
-              </div>
-            {% endif %}
-          </div>
-        {% endfor %}
-      </div>
+          {% endfor %}
+        </div>
+      {% endfor %}
     {% endfor %}
   </div>
 {% else %}

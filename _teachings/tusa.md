@@ -7,6 +7,7 @@ location: Paderborn University
 instructor: "Prof. Dr. Patricia Arias Cabarcos"
 year: 2023
 term: Summer
+term_order: 1
 program: Master
 course_id: tusa
 ---
