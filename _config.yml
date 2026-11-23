@@ -205,6 +205,8 @@ collections:
     output: false
   teachings:
     output: true
+  thesis:
+    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

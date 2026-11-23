@@ -7,7 +7,10 @@ nav: true
 nav_order: 6
 calendar: true
 ---
-
+<h2>Courses and Seminars</h2>
 {% include courses.liquid %}
+
+<h2>Thesis Supervisions</h2>
+{% include thesis.liquid %}
 
 

@@ -1,0 +1,17 @@
+{% assign theses = site.thesis | sort: "year" | reverse %}
+
+{% if theses.size > 0 %}
+  <ul>
+    {% for thesis in theses %}
+      <li>
+        <strong>{{ thesis.title }}</strong>
+        {% if thesis.year %} ({{ thesis.year }}){% endif %}
+        {% if thesis.description %}
+          — {{ thesis.description | markdownify }}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>No supervised theses listed yet.</p>
+{% endif %}
