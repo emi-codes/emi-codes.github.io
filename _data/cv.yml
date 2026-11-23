@@ -82,16 +82,18 @@ cv:
 
     # Volunteer:
       - company: Assyrian Studies Association
-        position: Volunteer
+        position: Volunteer: Member
         location: ""
         start_date: "2026"
+        end_date: ""
         summary: >-
           Promotes research and community projects associated with Assyro-Mesopotamian heritage.
 
       - company: Qamishli Hilfswerk-Verein
-        position: Volunteer
+        position: Volunteer: Member
         location: ""
         start_date: "2016"
+        end_date: ""
         summary: >-
           Supports mentorship programs for Syrian refugees in Germany and post-conflict community rebuilding initiatives in Syria.
 
