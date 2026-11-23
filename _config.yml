@@ -207,6 +207,8 @@ collections:
     output: true
   thesis:
     output: true
+  service:
+    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

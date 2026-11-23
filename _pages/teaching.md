@@ -11,6 +11,8 @@ calendar: true
 {% include courses.liquid %}
 <div style="margin-top: 4rem;"></div>
 <h2>Thesis Supervisions</h2>
+<strong><p>I have supervised the following Master theses:</p></strong>
+<div style="margin-top: 2rem;"></div>
 {% include thesis.liquid %}
 
 
