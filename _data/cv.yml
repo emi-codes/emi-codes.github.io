@@ -81,18 +81,18 @@ cv:
           - "Web developer for the E-Learning course “Psychology and Movement Science”"
 
 
-    Volunteer:
-      - organization: Assyrian Studies Association
-        position: Volunteer
-        start_date: "2026"
-        summary: >-
-          Promotes research and community projects associated with Assyro-Mesopotamian heritage.
+    # Volunteer:
+    #   - organization: Assyrian Studies Association
+    #     position: Volunteer
+    #     start_date: "2026"
+    #     summary: >-
+    #       Promotes research and community projects associated with Assyro-Mesopotamian heritage.
 
-      - organization: Qamishli Hilfswerk-Verein
-        position: Volunteer
-        start_date: "2016"
-        summary: >-
-          Supports mentorship programs for Syrian refugees in Germany and post-conflict community rebuilding initiatives in Syria.
+    #   - organization: Qamishli Hilfswerk-Verein
+    #     position: Volunteer
+    #     start_date: "2016"
+    #     summary: >-
+    #       Supports mentorship programs for Syrian refugees in Germany and post-conflict community rebuilding initiatives in Syria.
 
     Awards:
       - title: Emilio Aced Award
