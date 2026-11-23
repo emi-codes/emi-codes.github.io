@@ -4,10 +4,10 @@
   <ul>
     {% for thesis in theses %}
       <li>
-        <strong>{{ thesis.title }}</strong>
+        <h4>{{ thesis.title }}</h4>
         {% if thesis.year %} ({{ thesis.year }}){% endif %}
         {% if thesis.description %}
-          — {{ thesis.description | markdownify }}
+         {{ thesis.description | markdownify }}
         {% endif %}
       </li>
     {% endfor %}

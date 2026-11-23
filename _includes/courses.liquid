@@ -11,14 +11,14 @@
       {% assign courses_by_term = term_ordered_courses | group_by: 'term' %}
 
       {% for term_group in courses_by_term %}
-        <h2 class="year">{{ term_group.name }} {{ year_group.name }}</h2>
+        <h3 class="year">{{ term_group.name }} {{ year_group.name }}</h3>
 
         <div class="">
           {% assign term_courses = term_group.items | sort: 'title' %}
 
           {% for course in term_courses %}
             <div class="">
-              <h3 class="course-title">{{ course.title }}</h3>
+              <h4 class="course-title">{{ course.title }}</h4>
 
               <div class="course-meta">
                 {% if course.program %}
