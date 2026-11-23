@@ -7,7 +7,6 @@ nav: true
 nav_order: 6
 ---
 
-<!-- {% include service.liquid %} -->
 
 <div class="service-section">
   <h2>Program Committee Membership</h2>
@@ -28,5 +27,11 @@ nav_order: 6
     <li><strong>2023, 2025</strong> — ACM CCS</li>
     <li><strong>2023</strong> — ACM CHI Extended Abstracts</li>
   </ul>
+  <div style="margin-top: 2rem;"></div>
+  <h2>Reviewing Awards and Recognitions</h2>
+  <ul class="service-list">
+    <li><strong><i>'special recognition for outstanding review'</i></strong> — ACM CHI 2026</li>
+  </ul>
 
 </div>
+
