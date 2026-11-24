@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Hi, thanks for stopping by! I'm Emiram, a PhD student at <a href='https://www.uni-paderborn.de/en/'>Paderborn University</a>. I am supervised by Dr. Patricia Arias Cabarcos and currently affiliated with the System Security group, lead by Prof. Dr.-Ing. Juraj Somorovsky. 
+subtitle: Hi, thanks for stopping by! I'm Emiram, a PhD student at <a href='https://www.uni-paderborn.de/en/'>Paderborn University</a>. I am supervised by Dr. Patricia Arias Cabarcos and currently affiliated with the System Security group, lead by Prof. Dr.-Ing. Juraj Somorovsky. I have been a visiting researcher at the University of Edinburgh, working with Dr. Jingjie Li, and at Karlsruhe Institute of Technology, working with Prof. Dr. Melanie Volkamer.
 
 
 
