@@ -30,7 +30,7 @@ nav_order: 6
   <div style="margin-top: 2rem;"></div>
   <h2>Reviewing Awards and Recognitions</h2>
   <ul class="service-list">
-    <li><strong><i>'special recognition for outstanding review'</i></strong> — ACM CHI 2026</li>
+    <li><strong>ACM CHI 2026</strong><i> — Special recognition for outstanding review</i> </li>
   </ul>
 
 </div>

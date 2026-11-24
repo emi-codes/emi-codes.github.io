@@ -23,16 +23,16 @@ cv:
       - institution: Paderborn University
         area: Computer Science
         studyType: Master of Science
-        # start_date: "2018-04"
-        start_date: "2021-06"
+        start_date: "2018-04"
+        end_date: "2021-06"
         highlights:
           - "Thesis: An analysis of implications of mobile Augmented Reality applications on software-ergonomic requirements"
 
       - institution: Paderborn University
         area: Computer Science
         studyType: Bachelor of Science
-        # start_date: "2013-10"
-        start_date: "2018-03"
+        start_date: "2013-10"
+        end_date: "2018-03"
         highlights:
           - "Thesis: Exploring the usability of mobile websites using the example of PANDA’s mobile internet presence"
 
