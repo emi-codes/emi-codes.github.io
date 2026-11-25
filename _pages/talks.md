@@ -19,16 +19,16 @@ nav_order: 6
 
   <h2>Guest Lectures and Workshops</h2>
   <ul class="service-list">    
-    <li><strong>2024, 2025</strong> — Herbst Uni @ Paderborn University, Workshop: "Design Thinking"</li>
+    <li><strong>2024, 2025</strong> — <a href="https://www.uni-paderborn.de/en/universitaet/empowermint/herbst-uni">Herbst Uni</a> @ Paderborn University, Workshop: "Design Thinking"</li>
     <li><strong>2024</strong> — Lecture "Usable Security and Privacy" @ Paderborn University, Guest talk: "Usable Security and Privacy in Virtual Reality"</li>
-    <li><strong>2024</strong> — Girls' Day @ Paderborn University, Workshop: "LEGO 4 Scrum"</li>
+    <li><strong>2024</strong> — <a href="https://www.uni-paderborn.de/en/universitaet/empowermint/girlsday">Girls' Day</a> @ Paderborn University, Workshop: "LEGO 4 Scrum"</li>
   </ul>
   <div style="margin-top: 2rem;"></div>
 
   <h2>Guest Talks</h2>
   <ul class="service-list">
     <li><strong>2025</strong> — Event "Career Paths in CS" @ Paderborn University, Guest talk: "Von der Theorie zur Praxis und zurück: Ein interdisziplinärer Weg durch Industrie und Akademie"</li>
-    <li><strong>2024</strong> — SECUSO @ KIT, Research seminar talk: "Enhancing Authentication in Virtual Reality – A Usable and Secure Future Perspective"</li>
+    <li><strong>2024</strong> — SECUSO @ KIT, <a href="https://secuso.aifb.kit.edu/english/73.php">Research seminar</a> talk: "Enhancing Authentication in Virtual Reality – A Usable and Secure Future Perspective"</li>
   </ul>
 
   <h2>Poster Presentations</h2>
@@ -36,7 +36,7 @@ nav_order: 6
     <li><strong>2026</strong> — SOUPS: "PrivaCI in VR: Exploring Perceptions and Acceptability of Data Sharing in Virtual Reality Through Contextual Integrity" in Hannover, Germany</li> 
     <li><strong>2026</strong> — ACM CHI: "‘I store some passwords in WhatsApp’: Understanding User Experiences and Usability Challenges of Password Managers in Virtual Reality" in Barcelona, Spain</li> 
     <li><strong>2025</strong> — ACM CHI: "‘I'm actually going to go and change these passwords’: Analyzing the Usability of Credential Audit Interfaces in Password Managers", <i>virtually</i></li> 
-    <li><strong>2023</strong> — WISC Workshop: "Exploring Usable Authentication in Virtual Reality" in Bochum, Germany</li>
+    <li><strong>2023</strong> — <a href="https://casa.rub.de/en/events/wisc-workshop">WISC Workshop</a>: "Exploring Usable Authentication in Virtual Reality" in Bochum, Germany</li>
   </ul>
   <div style="margin-top: 2rem;"></div>
 </div>
