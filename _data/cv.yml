@@ -17,7 +17,7 @@ cv:
         studyType: Ph.D. Student
         start_date: "2022-07"
         highlights:
-          - "Advisor: Prof. Dr. Patricia Arias Cabarcos (IT Security)"
+          - "Advisor: Dr. Patricia Arias Cabarcos"
           - "Research topic: Usable Security and Privacy in Emerging Technologies"
 
       - institution: Paderborn University
@@ -41,44 +41,44 @@ cv:
         position: Research Associate
         location: Paderborn, Germany
         start_date: "2022-07"
-        highlights:
-          - "Chair of IT Security, led by Prof. Dr. Patricia Arias Cabarcos"
+        # highlights:
+        #   - "Chair of IT Security, led by Prof. Dr. Patricia Arias Cabarcos"
 
       - company: University of Edinburgh
         position: Visiting Researcher
         location: Edinburgh, UK
         start_date: "2026-05"
         end_date: "2026-07"
-        highlights:
-          - "Three-month research visit"
-          - "Host supervisor: Dr. Jingjie Li"    
+        # highlights:
+        #   - "Three-month research visit"
+        #   - "Host supervisor: Dr. Jingjie Li"    
 
       - company: Karlsruhe Institute of Technology
         position: Visiting Researcher
         location: Karlsruhe, Germany
         start_date: "2025-10"
         end_date: "2026-01"
-        highlights:
-          - "Six-week research visit"
-          - "Chair of SECUSO, led by Prof. Dr. Melanie Volkamer"
+        # highlights:
+        #   - "Six-week research visit"
+        #   - "Chair of SECUSO, led by Prof. Dr. Melanie Volkamer"
 
       - company: Connext Communication GmbH
         position: Software Developer
         location: Paderborn, Germany
         start_date: "2021-08"
         end_date: "2022-06"
-        highlights:
-          - "Developed software for health care institutions"
+        # highlights:
+        #   - "Developed software for health care institutions"
 
       - company: Paderborn University
         position: Student Research Assistant
         location: Paderborn, Germany
         start_date: "2017-05"
         end_date: "2021-04"
-        highlights:
-          - "Developer and designer at AR-Lab"
-          - "Mentor and project coordinator at Look UPB / “Frauen gestalten die Informationsgesellschaft”"
-          - "Web developer for the E-Learning course “Psychology and Movement Science”"
+        # highlights:
+        #   - "Developer and designer at AR-Lab"
+        #   - "Mentor and project coordinator at Look UPB / “Frauen gestalten die Informationsgesellschaft”"
+        #   - "Web developer for the E-Learning course “Psychology and Movement Science”"
 
 
     # Volunteer:
