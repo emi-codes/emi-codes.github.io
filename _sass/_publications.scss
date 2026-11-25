@@ -196,3 +196,12 @@
 .citation-number {
   color: var(--global-theme-color);
 }
+
+.publications ol.bibliography li > .row > div[id] {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.publications ol.bibliography li > .row > .abbr {
+  display: none;
+}
