@@ -30,4 +30,3 @@ My research focuses on **usable security and privacy in emerging interactive and
 
 Feel free to reach out! ✌️
 
-{% include social.liquid %}
