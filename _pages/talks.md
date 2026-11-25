@@ -9,7 +9,7 @@ nav_order: 6
 <div class="service-section">
   <h2>Conference Talks</h2>
   <ul class="service-list">
-    <li><strong>2026</strong> — PETS, Session talk: "‘The city isn't uploading me to TikTok’: Exploring Privacy Attitudes towards Data Collection in Urban Public Spaces." in Calgary, Canada</li> 
+    <li><strong>2026</strong> — PETS, Session talk: "‘The city isn't uploading me to TikTok’: Exploring Privacy Attitudes towards Data Collection in Urban Public Spaces." in Calgary, Canada. Find the video <a href="https://youtu.be/WhP3vteS_HU?si=dLDKpQChT4v_gYK3">here</a>. </li> 
     <li><strong>2025</strong> — USENIX Security, Session talk: "PrivaCI in VR: Exploring Perceptions and Acceptability of Data Sharing in Virtual Reality Through Contextual Integrity" in Seattle (WA), USA</li>    
     <li><strong>2024</strong> — PrivaCI Symposium, Session talk: "PrivaCI in VR: Exploring Perceptions and Acceptability of Data Sharing in Virtual Reality Through Contextual Integrity (WIP)" in New Brunswick (NJ), USA</li>
     <li><strong>2023</strong> — ACM CCS, Session talk: "Privacy in the Age of Neurotechnology: Investigating Public Attitudes towards Brain Data Collection and Use" in Copenhagen, Denmark</li>
