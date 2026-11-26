@@ -17,7 +17,7 @@ calendar: true
   <div class="thesis-item">
     <p>An Expert-Based Evaluation of Password Managers in Virtual Reality (2026)</p>
     <p>User Perceptions on Password Managers in Virtual Reality (2025)</p>
-    <p>Investigating Public Attitudes Towards Data Collection and Use in Virtual Reality (2024)</p>
+    <p>Investigating Public Attitudes Towards Data Collection and Use in Virtual Reality (2024) → <i>Finalist of <a href = "https://cast-forum.de/foerderpreise/archiv/2025.html">CAST IT Security Award 2025</a></i> </p>
     <p>Perceptions and Behaviors Regarding Passwords of Students in German Schools (2024)</p>
     <p>ExtenTET: Visualizing the Risks of Browser Extensions to Investigate the Effect on User Awareness (2023)</p>
   </div>
